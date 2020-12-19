@@ -13,7 +13,7 @@ untuk file nama "hasil2.py"
 - Rumus Persamaan Kuadrat dengan perulangan, dimana perulangan tersebut dilakukan jika kode sebelumnya telah selesai berjalan
 - Perulangan tersebut akan dihitung sebnayak "n"
 - Jika kode sebelumnya telah selesai di jalankan makan akan muncul input command
-- Jika kita mengisi input command tersebut sesuai aturan. makan akan tersu di ulang sebanyak kita input command tersebbut
+- Jika kita mengisi input command tersebut sesuai aturan. makan akan tersu di ulang sebanyak kita input command tersebut
 - input command tersebut adalah input "ya", selain "ya" maka akan berhenti
 - File ini menggunakan code penulisan "function python"
 
