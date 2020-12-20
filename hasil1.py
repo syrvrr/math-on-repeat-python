@@ -3,7 +3,7 @@ import os
 import math
 import time
 
-print ("\nTeks Perulangan di dalam perulangan")
+print ("\nPersamaan Kuadrat dalam Perulangan Di dalam Perulangan :v")
 
 kode = int(input("\nMasukkan Nilai Perulangan : "))
 a = int(input(("\nMasukkan nilai a:  ")))
@@ -33,7 +33,6 @@ else:
         x2 = (-b - math.sqrt(D)) / (2*a)        
 
 
-
 #f = a + b * c
 hitung = 0
 jawab = "ya"
@@ -44,14 +43,11 @@ for i in range(kode):
 
         print ("\nHasil dari persamaan kuadrat dari " , (a) , (b), "dan", (c) ,"adalah", (x1) , "dan" ,(x2) )
 
-
-
-
-for j in range(i):
+while True:
         for k in range(kode):
                 print("\nHasil dari persamaan kuadrat dari " , (a) , (b), "dan", (c) ,"adalah", (x1) , "dan" ,(x2))
 
-        jawab = input("Ulangi lagi kah? ")
+        jawab = input("\nApakah Anda Ingin Mengulanginya lagi? ")
         hitung +=1
                 
         if jawab != "ya":
@@ -64,7 +60,3 @@ end = time.time()
 print(f"Total jalannya waktu program adalah {end - begin}") 
 print ('Total Perulangan ', str(kode))
 print ('Total Perulangan sebanyak ', str(hitung))
-
-
-
-
