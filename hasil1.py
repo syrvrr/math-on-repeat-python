@@ -60,3 +60,4 @@ end = time.time()
 print(f"Total jalannya waktu program adalah {end - begin}") 
 print ('Total Perulangan ', str(kode))
 print ('Total Perulangan sebanyak ', str(hitung))
+
