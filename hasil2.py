@@ -13,7 +13,7 @@ def main():
       jawab = input("Ulangi Lagi? ")
       
       #user_math()
-      if jawab == 'tidak':
+      if jawab != 'ya':
          break
 
    print ("Total Perulangan = " , str(hitung))
