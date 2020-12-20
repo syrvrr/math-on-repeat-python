@@ -13,7 +13,7 @@ D = (b*b) - (4*a*c)
 
 x1 = D 
 if x1 < 0 :
-        print ("\nx1 adalah akar imajiner" * kode)
+        print ("\nHasil x1 adalah akar imajiner")
 elif D == 0 :
         print ("\nHasil x1 ini adalah D = 0")
         x1 = (-b + math.sqrt(D)) / (2*a)
@@ -24,7 +24,7 @@ else:
 
 x2 = D 
 if x2 < 0:
-        print ("\nx2 adalah akar imajiner" * kode)
+        print ("\nHasil x2 adalah akar imajiner")
 elif D == 0 :
         print ("\nHasil x2 ini adalah D = 0")
         x2 = x1
