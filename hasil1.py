@@ -13,7 +13,7 @@ D = (b*b) - (4*a*c)
 
 x1 = D 
 if x1 < 0 :
-        print ("\nHasil x1 adalah akar imajiner")
+        print ("\nx1 adalah akar imajiner")
 elif D == 0 :
         print ("\nHasil x1 ini adalah D = 0")
         x1 = (-b + math.sqrt(D)) / (2*a)
@@ -24,7 +24,7 @@ else:
 
 x2 = D 
 if x2 < 0:
-        print ("\nHasil x2 adalah akar imajiner")
+        print ("\nx2 adalah akar imajiner")
 elif D == 0 :
         print ("\nHasil x2 ini adalah D = 0")
         x2 = x1
@@ -32,6 +32,7 @@ else:
         print ("\nHasil x2 ini adalah D > 0 ")
         x2 = (-b - math.sqrt(D)) / (2*a)        
 
+print ("\nNilai determinannya adalah ", D)
 
 #f = a + b * c
 hitung = 0
@@ -40,11 +41,56 @@ begin = time.time()
 
 for i in range(kode):
         #hitung +=1
+        x1 = D 
+        if x1 < 0 :
+                print ("\nx1 adalah akar imajiner")
+        elif D == 0 :
+                print ("\nHasil x1 ini adalah D = 0")
+                x1 = (-b + math.sqrt(D)) / (2*a)
+        else:
+                print ("\nHasil x1 ini adalah D > 0")
+                x1 = (-b + math.sqrt(D)) / (2*a)
+                        
+        x2 = D 
+        if x2 < 0:
+                print ("\nx2 adalah akar imajiner")
+        elif D == 0 :
+                print ("\nHasil x2 ini adalah D = 0")
+                x2 = x1
+        else:
+                print ("\nHasil x2 ini adalah D > 0 ")
+                x2 = (-b - math.sqrt(D)) / (2*a)  
+        
+        print ("\nNilai determinannya adalah ", D)
 
         print ("\nHasil dari persamaan kuadrat dari " , (a) , (b), "dan", (c) ,"adalah", (x1) , "dan" ,(x2) )
 
+
+
+
 while True:
         for k in range(kode):
+                x1 = D 
+                if x1 < 0 :
+                        print ("\nx1 adalah akar imajiner")
+                elif D == 0 :
+                        print ("\nHasil x1 ini adalah D = 0")
+                        x1 = (-b + math.sqrt(D)) / (2*a)
+                else:
+                        print ("\nHasil x1 ini adalah D > 0")
+                        x1 = (-b + math.sqrt(D)) / (2*a)
+                        
+                x2 = D 
+                if x2 < 0:
+                        print ("\nx2 adalah akar imajiner")
+                elif D == 0 :
+                        print ("\nHasil x2 ini adalah D = 0")
+                        x2 = x1
+                else:
+                        print ("\nHasil x2 ini adalah D > 0 ")
+                        x2 = (-b - math.sqrt(D)) / (2*a)   
+                
+                print ("\nNilai determinannya adalah ", D)
                 print("\nHasil dari persamaan kuadrat dari " , (a) , (b), "dan", (c) ,"adalah", (x1) , "dan" ,(x2))
 
         jawab = input("\nApakah Anda Ingin Mengulanginya lagi? ")
@@ -57,7 +103,6 @@ time.sleep(1)
 # store end time 
 end = time.time()
 
-print(f"Total jalannya waktu program adalah {end - begin}") 
+print(f"Total jalannya waktu program adalah {end - begin} second") 
 print ('Total Perulangan ', str(kode))
 print ('Total Perulangan sebanyak ', str(hitung))
-
